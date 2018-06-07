@@ -1,0 +1,24 @@
+{
+  "name": "cordova-ios-face-id-fix",
+  "version": "1.0.2",
+  "description": "Set NSFaceIDUsageDescription for Cordova based iOS apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emcniece/cordova-ios-export-compliance.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": { "cordova-ios": "<6.1.0"}
+    }
+  },
+  "author": "Joaquin Ayuso de Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joax-denizen/cordova-ios-face-id-fix/issues"
+  },
+  "homepage": "https://github.com/joax-denizen/cordova-ios-face-id-fix/"
+}

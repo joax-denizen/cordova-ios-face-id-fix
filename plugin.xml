@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-ios-export-compliance" version="1.0.2">
+    <name>iOS Face ID</name>
+    <description>This plugin sets NSFaceIDUsageDescription in *-Info.plist file</description>
+    <license>ISC</license>
+    <engine name="ios" spec="^4.0.0" />
+
+    <platform name="ios">
+        <edit-config file="*-Info.plist" mode="merge" target="NSFaceIDUsageDescription">
+            <string>Denizen requires access to your Face ID to allow you to login with your Face ID</string>
+        </edit-config>
+    </platform>
+</plugin>
