@@ -6,8 +6,9 @@
     <engine name="ios" spec="^4.0.0" />
 
     <platform name="ios">
-        <edit-config file="*-Info.plist" mode="merge" target="NSFaceIDUsageDescription">
-            <string>Denizen requires access to your Face ID to allow you to login with your Face ID</string>
-        </edit-config>
+      <preference name="FACEID_USAGE_DESCRIPTION" default=" " />
+      <config-file target="*-Info.plist" parent="NSFaceIDUsageDescription">
+        <string>$FACEID_USAGE_DESCRIPTION</string>
+      </config-file>
     </platform>
 </plugin>
