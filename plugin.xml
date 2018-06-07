@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-ios-export-compliance" version="1.0.2">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-ios-face-id-fix" version="1.0.0">
     <name>iOS Face ID</name>
     <description>This plugin sets NSFaceIDUsageDescription in *-Info.plist file</description>
     <license>ISC</license>
